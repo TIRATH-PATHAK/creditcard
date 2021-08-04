@@ -1,0 +1,131 @@
+/* Global CSS */
+
+@font-face {
+    font-family: 'Myraidpro';
+   
+    src: url('../css/MYRIADPRO-REGULAR.woff');
+}
+
+@font-face {
+    font-family: 'orca';
+    /* src: url('../css/OCRAEXT.TTF'); */
+    src: url('../css/OCR\ A\ Extended\ Regular.ttf');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 13px;
+    color: white;
+    font-family: 'orca',sans-serif;
+  
+}
+
+h4,p{
+    margin: 0;
+    padding: 0;
+
+}
+
+.bg{
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+    position: relative;
+}
+
+.container{
+    max-width: 1011px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+.bank_logo{
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 4%;
+    transform: translate(30%,50%);
+
+}
+
+
+.number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    
+    background: linear-gradient(to bottom, #eeedec, #8e8c8b);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    font-size: 45px;
+    padding-top: 17%;
+    padding-left: 5%;
+    transform: translate(30%,100%);
+}
+
+.number p{
+    font-weight: 700;
+    position: absolute;
+    text-shadow: 2px 2px 2px white , 5px 5px 5px  #8e8c8b;
+   
+}
+
+
+.bottom{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 30%;
+    padding-left: 0%;
+    transform: translate(10%,50%);
+}
+
+.name{
+    float: left;
+    font-size: 22px;
+    padding-right: 8%;
+    font-family: 'Myraidpro';
+    letter-spacing: 4px;
+    
+    
+}
+
+.exp{
+    float: left;
+    font-size: 22px;
+    
+    padding-right: 10%;
+    transform: translateY(-34%);
+}
+
+.exp p{
+    font-family: 'Myraidpro';
+    line-height: 30px;
+}
+
+.master{
+    float: left;
+    width: 20%;
+
+    transform: translateY(-34%);
+
+}
+
+.clear{
+    display: table;
+    content: '';
+    clear: both;
+}
